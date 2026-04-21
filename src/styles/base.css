@@ -1,0 +1,29 @@
+@tailwind base;
+
+@layer base {
+
+    *, *:before, *:after {
+        @apply transition-colors duration-300 ease-in-out;
+    }
+
+    html, body {
+        @apply font-iran-yekan;
+    }
+
+    .offer-box-gradiant-css {
+        background: linear-gradient(
+                180deg,
+                rgb(0 0 0 / 0%) 15%,
+                rgb(0 0 0 / 91%) 63%,
+                rgb(0 0 0 / 100%) 100%
+        );
+    }
+
+    .offer-box-gradient-tailwind {
+        @apply bg-gradient-to-b
+        from-transparent from-15%
+        via-black/90 via-[63%]
+        to-black to-100%;
+    }
+
+}

@@ -1,0 +1,44 @@
+:root {
+
+    --ac-primary: 167 47 59;
+
+    --ac-primary-tint-100: 255 255 255;
+    --ac-primary-tint-200: 246 234 235;
+    --ac-primary-tint-300: 237 213 216;
+    --ac-primary-tint-400: 229 193 196;
+    --ac-primary-tint-500: 220 172 177;
+    --ac-primary-tint-600: 202 130 137;
+    --ac-primary-tint-700: 185 89 98;
+
+    --ac-primary-shade-100: 0 0 0;
+    --ac-primary-shade-200: 17 5 6;
+    --ac-primary-shade-300: 33 9 12;
+    --ac-primary-shade-400: 50 14 18;
+    --ac-primary-shade-500: 67 19 24;
+    --ac-primary-shade-600: 100 28 35;
+    --ac-primary-shade-700: 134 38 47;
+
+    --gray-100: 248 248 248;
+    --gray-200: 240 240 240;
+    --gray-300: 237 237 237;
+    --gray-400: 214 214 214;
+    --gray-500: 203 203 203;
+    --gray-600: 175 175 175;
+    --gray-700: 137 137 137;
+    --gray-800: 101 101 101;
+    --gray-900: 67 67 67;
+    --gray-950: 36 36 36;
+
+    --error: 195 0 0;
+    --error-light: 237 46 46;
+    --error-bg: 255 242 242;
+
+    --warning: 169 121 28;
+    --warning-light: 244 183 64;
+    --warning-bg: 255 248 225;
+
+    --success: 0 150 109;
+    --success-light: 0 186 136;
+    --success-bg: 243 253 250;
+
+}

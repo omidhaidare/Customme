@@ -1,0 +1,117 @@
+@tailwind utilities;
+
+@layer utilities {
+
+    .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
+        @apply font-bold leading-[140%];
+    }
+
+    .heading-1 {
+        @apply text-[2.75rem];
+    }
+
+    .heading-2 {
+        @apply text-[2.5rem];
+    }
+
+    .heading-3 {
+        @apply text-[2rem];
+    }
+
+    .heading-4 {
+        @apply text-2xl;
+    }
+
+    .heading-5 {
+        @apply text-xl;
+    }
+
+    .heading-6 {
+        @apply text-lg;
+    }
+
+    .body-1, .body-2, .body-3, .body-4, .body-5 {
+        @apply font-normal leading-[180%];
+    }
+
+    .body-1 {
+        @apply text-xl;
+    }
+
+    .body-2 {
+        @apply text-lg;
+    }
+
+    .body-3 {
+        @apply text-base;
+    }
+
+    .body-4 {
+        @apply text-sm;
+    }
+
+    .body-5 {
+        @apply text-xs;
+    }
+
+    .body-light {
+        @apply font-light text-lg leading-[180%];
+    }
+
+    .caption-1, .caption-2, .caption-3, .caption-4 {
+        @apply leading-[180%];
+    }
+
+    .caption-1, .caption-3 {
+        @apply font-bold;
+    }
+
+    .caption-2, .caption-4 {
+        @apply font-normal;
+    }
+
+    .caption-1 {
+        @apply text-sm;
+    }
+
+    .caption-2 {
+        @apply text-xs;
+    }
+
+    .caption-3, .caption-4 {
+        @apply text-[0.625rem];
+    }
+
+    .button-1 {
+        @apply font-medium text-base leading-[180%]
+    }
+
+    .button-2 {
+        @apply font-medium text-sm leading-[1.5rem]
+    }
+
+    .overline-1, .overline-2, .underline-1, .underline-2, .underline-3 {
+        @apply leading-[180%];
+    }
+
+    .overline-1 {
+        @apply font-normal text-base;
+    }
+
+    .overline-2 {
+        @apply font-bold text-xs;
+    }
+
+    .underline-1 {
+        @apply font-normal text-base;
+    }
+
+    .underline-2 {
+        @apply font-bold text-xs;
+    }
+
+    .underline-3 {
+        @apply font-light text-[0.625rem];
+    }
+
+}
